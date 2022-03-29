@@ -26,9 +26,3 @@ yarn dev
 4. This project uses Next on the Frontend instead of React to ensure SEO and I also really like how Next handles routing. The tradeoffs here are the support for react projects is a lot of literature online. Another tradeoff, that would likely impact a larger application is that with React you can use Redux to manage state through the entire application. 
 5. Created separate components for markdown, multiple choice quizzes, and comments so they can be reused.
 6. I was originally using TailwindCSS to style the components; however, some html elements, (headings and blockquotes) have default styling removed which caused some collisions with how the markdown was displayed. Had I caught this earlier, I would have used another styling library or plain css to style the components. I chose to go with inline styling because TailwindCSS is very similar to inline styling so it was very easy to change how I was styling the components.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
