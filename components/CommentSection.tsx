@@ -65,7 +65,7 @@ const CommentSection:React.FC<iCommentsObject> = ({ Comments }) => {
         >
           {errorMessage && <p style={{ color: 'rgb(220 38 38)', margin: '0 0 10px' }}>{errorMessage}</p>}
           <textarea
-            style={{ border: '1px solid gray', borderRadius: '4px', padding: '3px' }}
+            style={{ border: '1px solid gray', borderRadius: '4px', padding: '5px' }}
             defaultValue={commentForm.current.comment}
             name='comment'
             onChange={handleChange}
@@ -73,7 +73,7 @@ const CommentSection:React.FC<iCommentsObject> = ({ Comments }) => {
           <div style={{ margin: '15px 0'}}>
             <label style={{ marginRight: '8px' }}>Your name: </label>
             <input
-              style={{ border: '1px solid gray', borderRadius: '4px', padding: '3px' }}
+              style={{ border: '1px solid gray', borderRadius: '4px', padding: '5px' }}
               defaultValue={commentForm.current.name}
               name='name'
               onChange={handleChange}

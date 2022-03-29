@@ -35,13 +35,13 @@ const Home = ({ articles }: { articles: Array<iArticle> }) => {
                   borderRadius: '4px',
                   display: 'block',
                   textAlign: 'center',
-                  padding: '40px 20px 20px',
+                  padding: '40px 20px',
                   marginBottom: '15px'
                 }}
               >
-                <h2 style={{ fontSize: '24px' }}>{Title}</h2>
+                <h2 style={{ fontSize: '24px', marginTop: '0' }}>{Title}</h2>
                 <h3 style={{ fontSize: '18px' }}>{`By: ${Author}`}</h3>
-                <h3 style={{ fontSize: '14px' }}>{date}</h3>
+                <p style={{ color: 'rgb(107 114 128)', fontSize: '16px', margin: '0' }}>{date}</p>
               </div>
             </a>
           )})}
