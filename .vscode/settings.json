@@ -1,0 +1,21 @@
+{
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    "**/.sam-build": true,
+    "**/.aws-sam": true,
+    "**/build.toml": true,
+    "**/build": true,
+    "**/.github": true,
+    "**/.next": true,
+    "**/out": true,
+    "**/cdk.out": true
+  },
+  "[typescript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
