@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "e87d8a2e-5ff3-4c84-bc32-6d8c6a997cb9",
+    "Author": "foobar",
+    "Text": "Great quiz, baz. I understand 6 is greater than 5",
+    "ArticleId": "d8ca800e-4f7f-41d9-a4aa-068b98739602"
+  },
+  {
+    "Id": "ddd629dd-5f1d-4218-a6e7-0d3c50aa608b",
+    "Author": "baz",
+    "Text": "Checkout what Google did with WebAssembly",
+    "ArticleId": "d7b321fc-6327-42aa-840b-6c38dfa3cbfe"
+  }
+]
