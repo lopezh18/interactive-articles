@@ -20,12 +20,12 @@ yarn dev
 4. Added the ability for the user to add comments & questions to the quiz
 
 ## Design Decisions & Tradeoffs
-1. Installed a package to parse Markdown, could have been done manually, but know the time it saved allowed for more features and more time spent on creativity.
+1. Installed react-markdown to parse Markdown, to save time and increase the amount of time I could spend on other areas of the project.
 2. Created one JSON data file that returns an array instead of creating many article files because we can query on any unique values in a database, not just the id. The tradeoff here is the data doesn't accurately reflect how a Postgres database returns data for a specific item. 
 3. Added a slug value to the articles as a unique identifier so the frontend can have a readable url. The Id value is a unique identifier that could be used to look up an item, so there is an additional unique identifier that would need to be stored in the database. 
 4. This project uses Next on the Frontend instead of React to ensure SEO and I also really like how Next handles routing. The tradeoffs here are the support for react projects is a lot of literature online. Another tradeoff, that would likely impact a larger application is that with React you can use Redux to manage state through the entire application. 
-5. Created separate components for Markdown and Multiple Choice Quizzes so they can be reused.
-
+5. Created separate components for markdown, multiple choice quizzes, and comments so they can be reused.
+6. Decided to use inline styling, I originally was using TailwindCSS to style the components; however, some html elements, (headings and blockquotes) have some default styling removed which caused some collisions with the markdown package. Had I caught this earlier, I would have used another styling library or plain css to style the components. These options would have made for much cleaner code. 
 
 ## Deploy on Vercel
 
